@@ -14,6 +14,18 @@
     <title>Home | Abhyudya Bhatnagar</title>
 </head>
 <body>
+    <div class="mobile-navs">
+        <button class="hamburger" id="hamburger" onclick="myFunction()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+        <ul id="mobile-nav-ul">
+            <li><input type="button" onClick="document.getElementById('projects').scrollIntoView();" name="recent" class="mobile-nav-bt" value="Projects"></li>
+            <li><input type="button" onClick="document.getElementById('about').scrollIntoView();" name="recent" class="mobile-nav-bt" value="About"></li>
+            <li><input type="button" onClick="document.location= 'musicprojects.html'" target="_blank" name="recent" class="mobile-nav-bt" value="Music Projects"></li>
+            <li><a href="mailto:abhyudyabhatnagar@gmail.com" class="mobile-nav-bt">Contact</a></li>
+        </ul>
+
+    </div>  
     <table id="main_table">
         <tr>
             <td id="left_main">
@@ -29,7 +41,7 @@
                         <li id="l3">Computer Science</li>
                         <li id="l5">Music</li>
                     </ul>
-                </div>  
+                </div>
   
             </td>    
             <td id="right_main">
@@ -38,7 +50,7 @@
                         <li><input type="button" onClick="document.getElementById('projects').scrollIntoView();" name="recent" class="landing-right-bt" value="Projects"></li>
                         <li><input type="button" onClick="document.getElementById('about').scrollIntoView();" name="recent" class="landing-right-bt" value="About"></li>
                         <li><input type="button" onClick="document.location= 'musicprojects.html'" target="_blank" name="recent" class="landing-right-bt" value="Music Projects"></li>
-                        <li><a href="mailto:abhyudyabhatnagar@gmail.com">Contact</a></li>
+                        <li><a href="mailto:abhyudyabhatnagar@gmail.com" class="landing-right-bt">Contact</a></li>
                     </ul>
                 </nav>
             </td>
@@ -177,6 +189,17 @@
         </tr>
 
     </table>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("mobile-nav-ul");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
 </body>
 <footer>
     <input type="button" value="Scroll up" onClick="document.getElementById('main_table').scrollIntoView();" name="scrollup" id="scrollupBT" >
