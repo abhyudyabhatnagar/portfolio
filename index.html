@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style/home.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,18 +35,148 @@
             <td id="right_main">
                 <nav>
                     <ul>
-                        <li>Projects</li>
-                        <li>
-                            About<!-- <input type="button" onClick="document.getElementById('recents').scrollIntoView();" name="recent" id="recentsBT" value="Recent Posts"> </li> -->
-                        <li>Music Projects</li>
-                        <li>Gallery</li>
-                        <li> <a href="mailto:abhyudyabhatnagar@gmail.com">Contact</a></li>
+                        <li><input type="button" onClick="document.getElementById('projects').scrollIntoView();" name="recent" class="landing-right-bt" value="Projects"></li>
+                        <li><input type="button" onClick="document.getElementById('about').scrollIntoView();" name="recent" class="landing-right-bt" value="About"></li>
+                        <li><input type="button" onClick="document.location= 'musicprojects.html'" target="_blank" name="recent" class="landing-right-bt" value="Music Projects"></li>
+                        <li><a href="mailto:abhyudyabhatnagar@gmail.com">Contact</a></li>
                     </ul>
                 </nav>
             </td>
         </tr>
     </table>
-    
+
+    <div id="about">
+        <h3>Hello!</h3>
+        <p>I am a Computers and communication engineer with a Masters in Project Management. 
+            I am currently located in the UK. I like to Sing and play a few instruments. 
+            Please check out some of my projects including a music channel 
+            where I often post covers and EPs. <br>
+
+        </p>
+
+    </div>
+<hr>
+    <table class="projects">
+        <tr class="project-item">
+            <td class="project-left">
+                <h2>Real Estate Appraisal Tool</h2>
+                <p>Real estate appraisal and land valuation is the process of putting 
+                    a price on the value of a property. Buy and sell transactions generally require an
+                    up-to-date appraisal because each property is unique and values are based 
+                    on the current economic landscape.
+                    <br>
+                    Built a Machine Learning model to estimate price of apartments. The model
+                    used the following 4 features: area, location, number of beds and baths as input
+                    and had an accuracy of approximately 80%
+                    </p>
+                    <a href="https://github.com/abhyudyabhatnagar/Real_estate_price_prediction" target="_blank" class="project-git-links">Github
+                    <i style="font-size:24px" class="fa">&#xf09b;</i></a>
+            
+            </td>
+            <td class="project-right">
+                <img src="media\projects-media\real estate appraisal tool.png" alt="image of project 1" class="project-img">
+            </td>
+        </tr>
+        <tr class="project-item">
+            <td class="project-left">
+                <h2>ANM Advisory Services project</h2>
+                <p>Designed and developed a website for ANM Advisory Serviced and setup a business profile on
+                    online platforms to improve online presence thereby increasing the site discovery rate to 85.2% 
+                    <br>
+                    Revamped the communication protocol by decoupling the client query, client info,
+                    and prospective application repositories to reduce response time by more than 40%
+                    </p>
+                    <a href="https://anmadvisory.com/#/" target="_blank" class="project-git-links">Link
+                    &#8599;</a>
+            
+            </td>
+            <td class="project-right">
+                <img src="media\projects-media\anm advisory.png" alt="image of project 1" class="project-img">
+            </td>
+        </tr>
+
+        <tr class="project-item">
+            <td class="project-left">
+                <h2>Facial Recognition System using Raspberry pi Touch</h2>
+                    <p>Implemented a Facial Recognition and Detection 
+                        system to study the accuracy rates of Haar feature-based cascade classifiers:
+                        approximately 95% accurate
+                        <br>
+                    </p>
+            
+            </td>
+            <td class="project-right">
+                <img src="media\projects-media\raspberry pi touch.jpg" alt="image of project 2" class="project-img">
+            </td>
+        </tr>
+
+        <tr class="project-item">
+            <td class="project-left">
+                <h2>Smart Mirror Project</h2>
+                <p>The project involves a two-way mirror with a partial display and voice assistants.
+                    It is built using a Raspberry pi 3. The software program was developed using Vue.Js on 
+                    a Raspberry pi Debian OS. The voice assistant was added using Api for Amazon alexa and
+                    Google assistant.                     
+                    </p>
+                    <a href="https://github.com/abhyudyabhatnagar/Smart_mirror" target="_blank" class="project-git-links">Github
+                    <i style="font-size:24px" class="fa">&#xf09b;</i></a>
+            
+            </td>
+            <td class="project-right">
+                <img src="media\projects-media\smart mirror.jpg" alt="image of project 1" class="project-img">
+            </td>
+        </tr>
+
+        <tr class="project-item">
+            <td class="project-left">
+                <h2>IT Service providers Directory</h2>
+                <p>This is a Relational Database project developed while I was pursuing engineering. 
+                    It deploys a web page that interacts with a SQL database to store information
+                    related to service based start-ups incubated by Manipal University.
+                    </p>
+                    <a href="https://github.com/abhyudyabhatnagar/Service_providers_DB" target="_blank" class="project-git-links">Github
+                    <i style="font-size:24px" class="fa">&#xf09b;</i></a>
+            
+            </td>
+            <td class="project-right">
+                <img src="media\projects-media\IT Service providers.png" alt="image of project 1" class="project-img">
+            </td>
+        </tr>
+        <tr class="jprograms">
+            <td class="jprograms-data">
+                <h2>Java Programs</h2>
+                <p>Programs built using concepts of Object-Oriented Programming. The projects incorporate 
+                    concepts such as abstraction, encapsulation, inheritance, and polymorphism </p>
+            </td>
+        </tr>
+        <tr class="project-item">
+            <td class="project-left">
+                <h4>Maze Runner Game</h4>
+                    <p>The game is built entirely using Java. It is a small game that prints out a map
+                        with the current location of a runner who is trying to escape the maze. 
+                    </p>
+                    <a href="https://github.com/abhyudyabhatnagar/MazeRunner" target="_blank" class="project-git-links">Github
+                    <i style="font-size:24px" class="fa">&#xf09b;</i></a>
+            </td>
+            <td class="project-right">
+                <img src="media\projects-media\maze runner.png" alt="image of project 1" class="project-img">
+            </td>
+        </tr>
+        <tr class="project-item">
+            <td class="project-left">               
+                <h4>Caesar Cipher</h4>
+                    <p>The program demonstrates one of the most simplest and popular encryption techniques.
+                       It takes in a a string, shift, and group value as input to generate a cipher text as output.     
+                    </p>
+                    <a href="https://github.com/abhyudyabhatnagar/MazeRunner" target="_blank" class="project-git-links">Github
+                    <i style="font-size:24px" class="fa">&#xf09b;</i></a>    
+            </td>
+            <td class="project-right">
+                <img src="media\projects-media\crypto.png" alt="image of project 1" class="project-img">
+            </td>
+        </tr>
+
+    </table>
 </body>
 <footer>
     <input type="button" value="Scroll up" onClick="document.getElementById('main_table').scrollIntoView();" name="scrollup" id="scrollupBT" >
@@ -52,20 +184,20 @@
     <ul id="media-links">
         <li>
             <i style="font-size:24px" class="fa">&#xf0e1;</i>
-            <a href="https://www.linkedin.com/in/abhyudya/">Linkedin</a>
+            <a href="https://www.linkedin.com/in/abhyudya/" target="_blank">Linkedin</a>
 
         </li>
         <li>
             <i style="font-size:24px" class="fa">&#xf09b;</i>
-            <a href="https://github.com/abhyudyabhatnagar">Github</a>
+            <a href="https://github.com/abhyudyabhatnagar" target="_blank">Github</a>
         </li>
         <li>
             <i style="font-size:24px" class="fa">&#xf16d;</i>
-            <a href="https://www.instagram.com/abhyudyabhatnagar">Instagram</a> 
+            <a href="https://www.instagram.com/abhyudyabhatnagar" target="_blank">Instagram</a> 
         </li>
         <li>
             <i style="font-size:24px" class="fa">&#xf16a;</i>
-            <a href="https://www.youtube.com/channel/UCNApgzGOPFojIq1BNwEr5jQ">Youtube</a>
+            <a href="https://www.youtube.com/channel/UCNApgzGOPFojIq1BNwEr5jQ" target="_blank">Youtube</a>
 
         </li>
     </ul> 
