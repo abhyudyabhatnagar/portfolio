@@ -168,6 +168,9 @@ nav ul li{
     box-shadow: 5px 8px 10px #443d3d;
 }
 
+.project-disc{
+    list-style-type: "-     ";
+}
 .project-git-links{
     text-decoration: none;
     font-size: large;
