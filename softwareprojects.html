@@ -5,126 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style/home.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/softwareprojects.css">
+    <script src="https://kit.fontawesome.com/3e950aabbb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
         </style>
-    <title>Home | Abhyudya Bhatnagar</title>
+    <title>Software projects</title>
 </head>
 <body>
-    <div class="mobile-navs">
-        <button class="hamburger" id="hamburger" onclick="myFunction()">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-        </button>
-        <ul id="mobile-nav-ul">
-            <li><input type="button" onClick="document.getElementById('about').scrollIntoView();" name="recent" class="mobile-nav-bt" value="About"></li>
-            <li><a href="mailto:abhyudyabhatnagar@gmail.com" class="mobile-nav-bt">Contact</a></li>
-            <li><input type="button" onClick="document.getElementById('projects').scrollIntoView();" name="recent" class="mobile-nav-bt" value="Consultancy Projects"></li>
-            <li><input type="button" onClick="document.location= 'softwareprojects.html'" target="_blank" name="recent" class="mobile-nav-bt" value="Software Projects"></li>
-        </ul>
-
-    </div>  
-    <table id="main_table">
-        <tr>
-            <td id="left_main">
-                <img id="profile" src="media/pro.jpg" alt="Abhyudya profile picture" height="150">
-                <h1>Abhyudya Bhatnagar</h1>
-                <p>
-                    A Software and Management professional equipped with strong interpersonal skills.<br>
-                </p>
-                <div id="skills">
-                    <ul id="slist">
-                        <li id="l1">Digital Consulting</li>
-                        <li id="l2">Management Consulting</li>
-                        <li id="l3">Advanced Analytics</li>
-                        <li id="l5">Computer Science</li>
-                    </ul>
-                </div>
-  
-            </td>    
-            <td id="right_main">
-                <nav>
-                    <ul>
-                        <li><input type="button" onClick="document.getElementById('about').scrollIntoView();" name="recent" class="landing-right-bt" value="About"></li>
-                        <li><a href="mailto:abhyudyabhatnagar@outlook.com" class="landing-right-bt">Contact</a></li>
-                        <li><input type="button" onClick="document.getElementById('consultancy-projects').scrollIntoView();" name="recent" class="landing-right-bt" value="Consultancy Projects"></li>
-                        <li><input type="button" onClick="document.getElementById('software-projects').scrollIntoView();" name="recent" class="landing-right-bt" value="Software Projects"></li>
-                    </ul>
-                </nav>
-            </td>
-        </tr>
-    </table>
-
-    <div id="about">
-        <h3>Hello!</h3>
-        <p>I am a computers and communication engineer with a Masters in Management. 
-            I am currently located in the UK. I like to sing and play musical instruments. 
-            Please check out some of my projects including a music channel 
-            where I often post covers and EPs. <br>
-
-        </p>
-
+    <div id="software-nav">
+        <a href="index.html"><i class="fa-solid fa-house"></i> Go Back</a>
+        <h1>Software Projects</h1>
     </div>
-<hr>
 
-<table id="consultancy-projects">
-    <h1 class="section-header">Consultancy Projects</h1>
-    <tr class="project-item">
-        <td class="project-left">
-            <h3>Business strategy amid a Web 3.0 setting</h3>
-            <p>The project aimed to assess the feasibility of utilizing Web3 technology 
-                for a food technology business specializing in organizing food events, seminars, and culinary workshops. 
-                The company sought to incorporate Web3 principles into its operations 
-                with the goal of enhancing the value it provides to the food industry.
-                <br>
-                <ul>
-                    <li class="project-disc">
-                        Conducted a a study that presented some promising applications and limitations of Web3 concepts 
-                        that can revamp the existing business model and initiatives 
-                        by incorporating concepts such as decentralised hosting, automated governance, and crypto economies.
-                    </li>
-                    <li class="project-disc">Recommended a viable business model and value proposition 
-                        that incorporated elements of an open source software strategy. 
-                        </li>
-                </ul>
-                </p>        
-        </td>
-        <td class="project-right">
-            <img src="media\consultancy-media\vrspace.png" alt="image of project 1" class="project-img">
-        </td>
-    </tr>
-
-    <tr class="project-item">
-        <td class="project-left">
-            <h3>Management consultancy project for a multinantional hospitality commpany</h3>
-            <p>The consultancy project was a collaborative effort between Cranfield University
-                and the University of Valencia, aimed at addressing a specific management issue brought forth by real clients.
-                The client is a prominent multinational hospitality company seeking solutions relalted to declining gender diversity particulary in upper management. 
-                The solutions were presented to a panel of distinguished executives representing the clients.
-                <br>
-                <ul>
-                    <li class="project-disc">
-                        Drafted a consultancy report with 5+ Qualitative consultancy frameworks and proposed a set of 3
-                        recommendations along with an implementation timeline.
-                    </li>
-                </ul>
-                </p>        
-        </td>
-        <td class="project-right">
-            <img src="media\consultancy-media\process.png" alt="image of project 1" class="project-img">
-        </td>
-    </tr>
-
-
-
-</table>
-
-<hr>
-
-    <table id="software-projects">
-        <h1 class="section-header">Software Projects</h1>        
+    <table id="projects">
         <tr class="project-item">
             <td class="project-left">
                 <h3>Real Estate Appraisal Tool</h3>
@@ -202,7 +97,7 @@
             </td>
         </tr>
 
-        <!-- <tr class="project-item">
+        <tr class="project-item">
             <td class="project-left">
                 <h3>IT Service providers Directory</h3>
                 <p>This is a Relational Database project which was developed while I was pursuing engineering. 
@@ -216,9 +111,9 @@
             <td class="project-right">
                 <img src="media\projects-media\IT Service providers.png" alt="image of project 1" class="project-img">
             </td>
-        </tr> -->
+        </tr>
 
-        <!-- <table class="jprograms">
+        <table class="jprograms">
             <tr>
                 <td class="jprograms-data">
                     <h3>Java Programs</h3>
@@ -253,22 +148,12 @@
                     <img src="media\projects-media\crypto.png" alt="image of project 1" class="project-img">
                 </td>
             </tr>
-        </table> -->
+        </table>
     </table>
-
-    <script>
-        function myFunction() {
-          var x = document.getElementById("mobile-nav-ul");
-          if (x.style.display === "block") {
-            x.style.display = "none";
-          } else {
-            x.style.display = "block";
-          }
-        }
-        </script>
+    
 </body>
 <footer>
-    <input type="button" value="Scroll up" onClick="document.getElementById('main_table').scrollIntoView();" name="scrollup" id="scrollupBT" >
+    <input type="button" value="Scroll up" onClick="document.getElementById('software-nav').scrollIntoView();" name="scrollup" id="scrollupBT" >
 
     <ul id="media-links">
         <li>
