@@ -57,7 +57,7 @@ li a{
 }
 
 #profile{
-    border-radius: 20%;
+    border-radius: 10%;
 }
 
 
@@ -91,6 +91,7 @@ li a{
     position: relative; 
     animation-name: list;
     animation-duration: 3s;
+    font-weight: bold;
     color: black; background-color: none;
     animation-fill-mode: forwards; 
 }
@@ -99,13 +100,13 @@ li a{
 @keyframes list{
     0% {left: 100px; top: 300px;}
     50% {left: 100px; top: 0px;}
-    100% {left:0px; top: 0px; color: burlywood;}
+    100% {left:0px; top: 0px; color: #6BC2C9;}
    
 }
 
-
+/* #6BC2C9 #86C1D4*/
 #right_main{
-    background-color: rgba(249, 240, 227, 0.824);
+    background-color: #443d3d;
     width: 50%;
 }
 
@@ -128,22 +129,24 @@ nav ul li{
 }
 
 .landing-right-bt{
-    background-color: rgba(249, 240, 227, 0.183);
+    background-color: #443d3d;
+    color: white;
     border: none;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 .landing-right-bt:hover{
-    background-color: rgba(249, 240, 227, 0.824);
-    color: white;
+    background-color: #443d3d;
+    color: #6BC2C9;
     cursor: pointer;
-    border: none;
+    font-weight: bold;
+    border: 0px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 
 #right_main nav ul li a:hover{
-    color: white;
+    color: #6BC2C9;
 }
 
 
